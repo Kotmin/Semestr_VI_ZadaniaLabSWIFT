@@ -8,12 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @Environment(\.navigate) private var navigate
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "cat")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Pare zadań")
+            
+            Button(action: { navigate(.z1_1) }, label: {
+                Text("Z_1_1")
+            })
+            Button(action: { navigate(.z1_2) }, label: {
+                Text("Z_1_2")
+            })
+            Button(action: { navigate(.z1_5) }, label: {
+                Text("Z_1_5")
+            })
+            
         }
         .padding()
     }
