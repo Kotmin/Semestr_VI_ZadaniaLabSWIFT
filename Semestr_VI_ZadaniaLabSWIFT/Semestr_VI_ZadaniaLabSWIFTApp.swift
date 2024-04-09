@@ -57,7 +57,7 @@ struct Semestr_VI_ZadaniaLabSWIFTApp: App {
                     case .z2_4:
                         ContentView()
                     case .z3_1:
-                        ContentView()
+                        z3_1()
                     case .z3_2:
                         ContentView()
                     }

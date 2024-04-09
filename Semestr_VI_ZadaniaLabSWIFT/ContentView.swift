@@ -27,6 +27,9 @@ struct ContentView: View {
             Button(action: { navigate(.z1_5) }, label: {
                 Text("Z_1_5")
             })
+            Button(action: { navigate(.z3_1) }, label: {
+                Text("Z_3_1")
+            })
             
         }
         .padding()
